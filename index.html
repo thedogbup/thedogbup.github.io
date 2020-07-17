@@ -2,7 +2,10 @@
 <html>
 	<head>
 		<title>BupHub</title>
+		<link rel="shortcut icon" href="bupixel.png" type="image/png">
 		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+		
+		
 		<style>
 			html {font-family: "Lato", "Lucida Sans", sans-serif;}
 			body {background-color: #333333; color: black;}
@@ -28,11 +31,11 @@
 				text-decoration: underline;
 			}
 			
-			.item1 {grid-area: header;}
-			.item2 {grid-area: menu;}
-			.item3 {grid-area: main;}
-			.item4 {grid-area: right;}
-			.item5 {grid-area: footer;}
+			.header {grid-area: header;}
+			.menu {grid-area: menu;}
+			.main {grid-area: main;}
+			.right {grid-area: right;}
+			.footer {grid-area: footer;}
 			
 			.grid-container {
 				display:grid;
@@ -52,20 +55,32 @@
 				font-size: 30px;
 			}
 			
-			.item2 > div {
+			.menu > div {
 				text-align: left;
 			}
 		</style>
+		
+		<meta name = "description" content = "Bup's official website" />
+		<meta name = "image" content = "bupixel.png" />
+		<meta name = "author" content = "bup" />
+		<meta name = "keywords" content = "bup, thedogbup" />
+		<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+		
+		<meta property = "og:type" content = "website">
+		<meta property = "og:title" content = "BupHub" />
+		<meta property = "og:description" content = "Bup's official website" />
+		<meta property = "og:url" content = "https://thedogbup.github.io/" />
+		<meta property = "og:image" content = "https://thedogbup.github.io/bupixel.png" />
 	</head>
 	
 	<body>
 		<div class = "grid-container">
-			<div class = "item1">
+			<div class = "header">
 				<h1><strong>Welcome to BupHub.</strong></h1>
 				<h2>This is a hub for all my media.</h2>
 			</div>
 			
-			<div class = "item2">
+			<div class = "menu">
 				<h3>Menu</h3>
 				<a href = "#SC">SoundCloud Highlights</a>
 				<br>
@@ -75,7 +90,7 @@
 				<br>
 			</div>
 			
-			<div class = "item3">
+			<div class = "main">
 				<div id = "SC">
 					<a href="https://soundcloud.com/kadanzbup" target="_blank">Soundcloud</a>
 					<br>
@@ -107,8 +122,8 @@
 					</div>
 				</div>
 			</div>
-			<!-- <div class = "item4">Right</div> -->
-			<div class = "item5">
+			<!-- <div class = "right">Right</div> -->
+			<div class = "footer">
 				<a href = "https://github.com/thedogbup/thedogbup.github.io">See this site's repo on GitHub</a>
 				<br>
 				By Bup, 2020
