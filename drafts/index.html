@@ -1,47 +1,114 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>BupHub</title>
-		<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+		<title>buphub</title>
+		<link rel="shortcut icon" href="bupixel.png" type="image/png">
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+		<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
+
 		<style>
-			html {font-family: "Lato", "Lucida Sans", sans-serif;}
-			body {background-color: #dddddd; color: black;}
-			div {text-align: center; font-size: 30px}
-			
-			a:link {
-				color: gray;
-				background-color: transparent;
-				text-decoration: none;
+		body {background-color: #36393B;}
+		
+		* {
+			box-sizing: border-box;
+		}
+		
+		.title{
+			background-color: #A3320B;
+			padding:15px;
+			text-align:left;
+		}
+
+		.menu {
+			float: left;
+			width: 10%;
+			text-align: center;
+		}
+
+		.menu a {
+			background-color: #988F2A;
+			padding: 8px;
+			margin-top: 7px;
+			display: block;
+			width: 100%;
+			color: black;
+		}
+
+		.main {
+			float: left;
+			width: 70%;
+			padding: 0 20px;
+		}
+
+		.right {
+			background-color: #748CAB;
+			color:black;
+			float: left;
+			width: 20%;
+			padding: 15px;
+			margin-top: 7px;
+			text-align: center;
+		}
+		
+		.footer{
+			background-color:#A3320B;
+			text-align:right;
+			padding:10px;
+			margin-top:7px;
+		}
+
+		@media only screen and (max-width: 620px) {
+			/* For mobile phones: */
+			.menu, .main, .right {
+			width: 100%;
 			}
-			a:visited {
-				color: maroon;
-				background-color: transparent;
-				text-decoration: none;
-			}
-			a:hover {
-				color: white;
-				background-color: transparent;
-				text-decoration: underline;
-			}
-			a:active {
-				color: yellow;
-				background-color: transparent;
-				text-decoration: underline;
-			}
+		}
 		</style>
 		
+		<meta name = "description" content = "bup's official website" />
+		<meta name = "image" content = "bupixel.png" />
+		<meta name = "author" content = "bup" />
+		<meta name = "keywords" content = "bup, thedogbup" />
+		<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
+		
 		<meta property = "og:type" content = "website">
-		<meta property = "og:title" content = "BupHub" />
-		<meta property = "og:description" content = "Bup's official website" />
+		<meta property = "og:title" content = "buphub" />
+		<meta property = "og:description" content = "bup's official website" />
 		<meta property = "og:url" content = "https://thedogbup.github.io/" />
-		<meta property = "og:image" content = "https://thedogbup.github.io/content/bupixel.png" />
-		<meta property = "author" content = "bup" />
+		<meta property = "og:image" content = "https://thedogbup.github.io/bupixel.png" />
+		
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	</head>
 	
-	<body>
-		<div>
-			<h1>Whoa, how'd you get here?</h1>
-			<a href = "https://thedogbup.github.io/index.html">Take me back.</a>
+	<body style="font-family:Verdana;color:#E2EF70;">
+		<div class="title">
+			<h1>buphub</h1>
+		</div>
+		
+		<div style="overflow:auto">
+			<div class="menu">
+				<a href="#">Link 1</a>
+				<a href="#">Link 2</a>
+				<a href="#">Link 3</a>
+				<a href="#">Link 4</a>
+			</div>
+			
+			<div class="main">
+				<h2>Future content here</h2>
+				<p>i'm working on this as hard as i can ¯\_(ツ)_/¯</p>
+			</div>
+			
+			<div class="right">
+				<h2>other section</h2>
+				<p>soon.</p>
+				</div>
+		</div>
+		
+		<div class="footer">
+			<a href = "https://github.com/thedogbup/thedogbup.github.io">see this site's repo on GitHub</a>
+			<br>
+			by bup, last updated 2024
 		</div>
 	</body>
 </html>
