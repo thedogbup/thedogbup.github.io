@@ -1,60 +1,68 @@
 <!DOCTYPE html>
-<html>
+<html lang="en" data-bs-theme="dark">
 	<head>
 		<title>buphub</title>
-		<link rel="shortcut icon" href="bupixel.png" type="image/png">
-		<link rel="preconnect" href="https://fonts.googleapis.com">
-		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-		<link href="https://fonts.googleapis.com/css2?family=Nunito&display=swap" rel="stylesheet">
 
-		<link rel="stylesheet" href="styles.css">
-		
-		<meta name = "description" content = "bup's official website" />
-		<meta name = "image" content = "bupixel.png" />
-		<meta name = "author" content = "bup" />
-		<meta name = "keywords" content = "bup, thedogbup" />
-		<meta name = "viewport" content = "width=device-width, initial-scale = 1.0">
-		
 		<meta property = "og:type" content = "website">
-		<meta property = "og:title" content = "buphub" />
-		<meta property = "og:description" content = "bup's official website" />
-		<meta property = "og:url" content = "https://thedogbup.github.io/" />
-		<meta property = "og:image" content = "https://thedogbup.github.io/bupixel.png" />
+		<meta property = "og:title" content = "buphub" >
+		<meta property = "og:description" content = "bup's official website" >
+		<meta property = "og:url" content = "https://thedogbup.github.io/" >
+		<meta property = "og:image" content = "https://thedogbup.github.io/assets/bup logo 2025 fix.svg">
+
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+		<link rel="stylesheet" type="text/css" href="styles.css">
+		<link rel="icon" href="/assets/buphub icon.svg" type="img/svg+xml">
 	</head>
-	
-	<body style="font-family: Verdana; color: #E2EF70;">
-		<div class="title">
-			<h1>buphub</h1>
+	<body>
+		<div class="p-4 text-center bg-success">
+			<a href="https://thedogbup.github.io">
+				<img src="assets/bup logo 2025 fix.svg" height="75em">
+			</a>
 		</div>
-		
-		<div style="overflow:auto">
-			<div class="menu">
-				<a href="javascript:alert('soon™');"><h2>🎵</h2></a>
-				<a href="javascript:alert('soon™');"><h2>🎨</h2></a>
-				<a href="javascript:alert('soon™');"><h2>🎥</h2></a>
-				<a href="javascript:alert('soon™');"><h2>📖</h2></a>
+
+		<nav class="navbar navbar-lg sticky-top bg-dark">
+			<div class="container">
+				<div class="row">
+					<div class="col">
+						<button type="button" class="btn btn-success" href="#" aria-label="Home"><i class="bi bi-house-door-fill"></i>
+					</div>
+					<div class="col">
+						<button type="button" class="btn btn-dark" href="#" aria-label="Music" aria-disabled="true" disabled><i class="bi bi-music-note-beamed"></i></button>
+					</div>
+					<div class="col">
+						<button type="button" class="btn btn-dark" href="#" aria-label="Art and Graphics" aria-disabled="true" disabled><i class="bi bi-palette-fill"></i></button>
+					</div>
+					<div class="col">
+						<button type="button" class="btn btn-dark" href="#" aria-label="Writing" aria-disabled="true" disabled><i class="bi bi-pencil-fill"></i></button>
+					</div>
+				</div>
 			</div>
-			
-			<div class="main" style="text-align:center;">
-				<h2 style="text-align:center;">Featured Content</h2>
-				
-				<a href="/music_releases/strych99.html">
-					<p>New song out! Strych'99 is a garage track inspired by darker 90s classics!</p>
-					<img src="/music_releases/strych99/Orbit 27 strych99.png" alt="Strych'99 cover" width="40%" height="40%"></img>
-					<p>Now out on streaming platforms!</p>
-				</a>
-			</div>
-			
-			<div class="right">
-				<h2>other section</h2>
-				<iframe src="https://buphub.ishoutbox.com" width="80%" height="500" frameborder="0" valign="right" allowtransparency="true" style="flex-grow: 1; border: none; margin: 0; padding: 0;"></iframe>
+		</nav>
+
+		<div class="container mt-5 bg-secondary rounded">
+			<div class="row gy-1">
+				<div class="col-sm-flex clearfix">
+					<h2>buphub 2.0 update!</h2>
+					<h6>Jan 18, 2026</h6>
+					<img src="assets/computer lol.webp" class="col-md-2 float-md-end mb-3 ms-md-3">
+					<p>For too long now, my Discord profile has linked my website with a disclaimer, that it was last updated in April 2024. Big yike...</p>
+					<p>As I am typing this, I am in the midst of another full reconstruction of the website again, but hopefully with a much better and easier framework to work with. You see, all of my previous websites were built out of jank HTML and sometimes CSS from scratch; a formula that would fully discourage myself from ever updating it ever again.</p>
+					<p>As somebody who prides himself in learning things on subjects they have no business to learn, I finally in the year 2026 found out about Bootstrap, which has made the task of making my website functional yet pleasing to the eye much easier than before.</p>
+					<p>Alas, I am not done with this framework, and hopefully I will keep making this website better. One of the things I definitely need to figure out is how to customize Bootstrap; actual webdevs may notice the green in this website is not a custom primary color, but the default success color!</p>
+				</div>
 			</div>
 		</div>
-		
-		<div class="footer">
-			<a href = "https://github.com/thedogbup/thedogbup.github.io">see this site's repo on GitHub</a>
-			<br>
-			by bup, last updated 2024
+
+
+		<div>
+			<iframe src="https://buphub.ishoutbox.com" width="100%" height="100%" frameborder="0" valign="middle" allowtransparency="true"></iframe>
+		</div>
+		<div class="mt-5 p-4 text-white text-center">
+			<a href="https://github.com/thedogbup/thedogbup.github.io" target="_blank" rel="noopener noreferrer" class="btn btn-dark btn-lg" href="#" aria-label="GitHub"><i class="bi bi-github"></i></a>
 		</div>
 	</body>
 </html>
